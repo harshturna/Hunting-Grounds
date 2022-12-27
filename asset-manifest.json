@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Hunting-Grounds/static/css/main.985d0408.css",
-    "main.js": "/Hunting-Grounds/static/js/main.362416e6.js",
+    "main.js": "/Hunting-Grounds/static/js/main.b456996b.js",
     "index.html": "/Hunting-Grounds/index.html",
     "main.985d0408.css.map": "/Hunting-Grounds/static/css/main.985d0408.css.map",
-    "main.362416e6.js.map": "/Hunting-Grounds/static/js/main.362416e6.js.map"
+    "main.b456996b.js.map": "/Hunting-Grounds/static/js/main.b456996b.js.map"
   },
   "entrypoints": [
     "static/css/main.985d0408.css",
-    "static/js/main.362416e6.js"
+    "static/js/main.b456996b.js"
   ]
 }
