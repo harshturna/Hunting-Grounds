@@ -1,0 +1,119 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+.App h1 {
+  font-size: 2.2rem;
+}
+.App p {
+  font-size: 1.4rem;
+}
+
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background: #275e36;
+  color: #fff;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.turns {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.game-over {
+  color: #cdd2cd;
+  font-size: 2rem;
+  margin-block: 25vh;
+  background-color: #4f7759;
+  padding: 4rem 4rem;
+  margin-inline: 4rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* position: absolute;
+  z-index: 1;
+  backdrop-filter: blur(3px); */
+}
+
+.game-over div span {
+  font-size: 3rem;
+  color: #282d23;
+}
+
+@media (max-width: 850px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 20px;
+    gap: 10px;
+  }
+  .button {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 750px) {
+  .game-over {
+    font-size: 1.5rem;
+    margin-inline: 6rem;
+    padding: 3rem 3rem;
+  }
+
+  .game-over div span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .game-over {
+    font-size: 1rem;
+    margin-inline: 6.2rem;
+    padding: 2rem 3rem;
+    gap: 15px;
+  }
+
+  .game-over div span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+  }
+
+  .game-over {
+    font-size: 1rem;
+    margin-inline: 2rem;
+    padding: 1rem 2rem;
+    gap: 10px;
+  }
+
+  .game-over div span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
