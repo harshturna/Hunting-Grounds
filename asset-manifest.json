@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hunting-grounds/static/css/main.985d0408.css",
+    "main.js": "/hunting-grounds/static/js/main.362416e6.js",
+    "index.html": "/hunting-grounds/index.html",
+    "main.985d0408.css.map": "/hunting-grounds/static/css/main.985d0408.css.map",
+    "main.362416e6.js.map": "/hunting-grounds/static/js/main.362416e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985d0408.css",
+    "static/js/main.362416e6.js"
+  ]
+}
