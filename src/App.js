@@ -87,7 +87,7 @@ function App() {
 
       {isGameOver && (
         <div className="game-over">
-          <div>Well Done Hunter!</div>
+          <div>Well played Hunter!</div>
           <div>
             You collected all parts in <span>{turns}</span> turns.
           </div>
